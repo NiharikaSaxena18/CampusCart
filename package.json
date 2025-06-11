@@ -1,0 +1,38 @@
+{
+  "name": "campuscart",
+  "version": "1.0.0",
+  "description": "A full-stack e-commerce-style platform for students to buy/sell used items like books, electronics, etc., within campus.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "init-db": "node init/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiharikaSaxena18/CampusCart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiharikaSaxena18/CampusCart/issues"
+  },
+  "homepage": "https://github.com/NiharikaSaxena18/CampusCart#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.1",
+    "react-router-dom": "^7.6.1",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
